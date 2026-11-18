@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.DistanceEstimateTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:13.144Z" hostname="DESKTOP-4LJB0EC" time="0.026">
+  <properties/>
+  <testcase name="distanceUsesRangeInsteadOfOneMisleadingNumber" classname="kr.reformparty.koriyoscan.core.DistanceEstimateTest" time="0.025"/>
+  <testcase name="calibrationMovesTheEstimateCloser" classname="kr.reformparty.koriyoscan.core.DistanceEstimateTest" time="0.001"/>
+  <testcase name="missingStrengthHasNoDistance" classname="kr.reformparty.koriyoscan.core.DistanceEstimateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

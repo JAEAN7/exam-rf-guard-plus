@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:13.312Z" hostname="DESKTOP-4LJB0EC" time="0.019">
+  <properties/>
+  <testcase name="autoUsesMaxWhenCapacityUnknown" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.011"/>
+  <testcase name="saverPreferenceAlwaysStandard" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.001"/>
+  <testcase name="maxModePullsScanIntervalWhenThrottlingIsOff" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.004"/>
+  <testcase name="autoUsesSaverWhenHotOrSaving" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.001"/>
+  <testcase name="autoKeepsMaxWhileChargingEvenWhenLow" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.0"/>
+  <testcase name="autoUsesMaxWhenHealthy" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.0"/>
+  <testcase name="maxPreferenceAlwaysMax" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.0"/>
+  <testcase name="autoUsesSaverWhenLowOnBattery" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.0"/>
+  <testcase name="saverModeKeepsGentleScanInterval" classname="kr.reformparty.koriyoscan.core.SensitivityChoiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

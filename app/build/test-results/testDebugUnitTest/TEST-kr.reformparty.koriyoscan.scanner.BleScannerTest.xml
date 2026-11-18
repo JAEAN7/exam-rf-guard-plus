@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.scanner.BleScannerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:15.483Z" hostname="DESKTOP-4LJB0EC" time="0.696">
+  <properties/>
+  <testcase name="failedScanIsNotReportedActiveAndRestartHasFreshHealth" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.222"/>
+  <testcase name="batchResultsKeepCaptureTimeAndStoppedCallbacksAreIgnored" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.07"/>
+  <testcase name="bluetoothDisabledReportsReasonWithoutPretendingToScan" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.089"/>
+  <testcase name="advertisementPreservesCompanyAndNameWithoutTreatingRadiatedPowerAsCalibration" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.113"/>
+  <testcase name="delayedCurrentSessionPacketKeepsItsTimeAndCannotRegressHealthFreshness" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.067"/>
+  <testcase name="preSessionFutureAndMissingTimestampsDoNotBecomeFreshObservations" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.061"/>
+  <testcase name="advertisementKindHintsAreReadAndLongScanIsRestartedWithTheSameCallback" classname="kr.reformparty.koriyoscan.scanner.BleScannerTest" time="0.073"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

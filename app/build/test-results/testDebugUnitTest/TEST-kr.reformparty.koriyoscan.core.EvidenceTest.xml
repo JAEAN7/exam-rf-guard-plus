@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.EvidenceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:13.181Z" hostname="DESKTOP-4LJB0EC" time="0.005">
+  <properties/>
+  <testcase name="continuousStrongSignalBecomesConfirmed" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.001"/>
+  <testcase name="extendedPresenceKeepsSparseBleVisibleLonger" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.001"/>
+  <testcase name="switchToMaximumRescoresSamplesAlreadyCollected" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.001"/>
+  <testcase name="duplicateCallbackDoesNotDoubleCountEvidence" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.0"/>
+  <testcase name="recallSurvivesAfterTheSampleWindowExpires" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.001"/>
+  <testcase name="standardModeStillExpiresBleAfterFifteenSeconds" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.0"/>
+  <testcase name="sparsePacketsOverMinutesStillReachLikely" classname="kr.reformparty.koriyoscan.core.EvidenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

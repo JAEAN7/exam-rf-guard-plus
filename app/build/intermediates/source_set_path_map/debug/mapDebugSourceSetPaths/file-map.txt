@@ -1,0 +1,46 @@
+kr.reformparty.koriyoscan.app-ui-graphics-release-0 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\00af49e36736c98beed22cdd5f669a48\transformed\ui-graphics-release\res
+kr.reformparty.koriyoscan.app-lifecycle-process-2.8.3-1 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\045eeb2b550ed2f8cd271a9d4d1f20f5\transformed\lifecycle-process-2.8.3\res
+kr.reformparty.koriyoscan.app-ui-test-manifest-1.7.6-2 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\111c6f1a8be5833d68685e69937c2a47\transformed\ui-test-manifest-1.7.6\res
+kr.reformparty.koriyoscan.app-core-runtime-2.2.0-3 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\2003ea05cfd9c1f43b95e12c2f37bbfd\transformed\core-runtime-2.2.0\res
+kr.reformparty.koriyoscan.app-lifecycle-runtime-ktx-release-4 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\276988f8cce2aaefd82ca88bbcd65fc5\transformed\lifecycle-runtime-ktx-release\res
+kr.reformparty.koriyoscan.app-annotation-experimental-1.4.1-5 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\2e791f19ab87193d22481e1051e3dd3e\transformed\annotation-experimental-1.4.1\res
+kr.reformparty.koriyoscan.app-savedstate-ktx-1.2.1-6 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\36185f2478b81b548e5c5537e8f0a5c7\transformed\savedstate-ktx-1.2.1\res
+kr.reformparty.koriyoscan.app-ui-util-release-7 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3c07cf50c1ffb8c06b95ae0f9d613f43\transformed\ui-util-release\res
+kr.reformparty.koriyoscan.app-ui-geometry-release-8 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3d04aff676608d464bc9c1d28f079110\transformed\ui-geometry-release\res
+kr.reformparty.koriyoscan.app-profileinstaller-1.3.1-9 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\res
+kr.reformparty.koriyoscan.app-graphics-path-1.0.1-10 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\42a863ed6c46927884c2b2f3f5b26563\transformed\graphics-path-1.0.1\res
+kr.reformparty.koriyoscan.app-material3-release-11 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\470400702c1c2ac694b2294f859e49d8\transformed\material3-release\res
+kr.reformparty.koriyoscan.app-ui-unit-release-12 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\4ce812430cf9e9d564ebdede159c2abb\transformed\ui-unit-release\res
+kr.reformparty.koriyoscan.app-lifecycle-runtime-compose-release-13 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\4fa8b07f19e47abb6c08f5fef335d288\transformed\lifecycle-runtime-compose-release\res
+kr.reformparty.koriyoscan.app-foundation-layout-release-14 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\51dc25269bbadc26a2eff84e98dc3704\transformed\foundation-layout-release\res
+kr.reformparty.koriyoscan.app-activity-compose-1.9.3-15 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\59676fad00f52d2f80c53207e22f7a37\transformed\activity-compose-1.9.3\res
+kr.reformparty.koriyoscan.app-tracing-1.2.0-16 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\6ac72399124b2adc96ce44b28f284910\transformed\tracing-1.2.0\res
+kr.reformparty.koriyoscan.app-customview-poolingcontainer-1.0.0-17 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\867b7e9c66a0691c1cbddd471dccd9b1\transformed\customview-poolingcontainer-1.0.0\res
+kr.reformparty.koriyoscan.app-runtime-release-18 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\8c31daa70d455b3d306953ec7b19e4c3\transformed\runtime-release\res
+kr.reformparty.koriyoscan.app-lifecycle-livedata-core-2.8.3-19 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\8e5e5ccce19de6ae19de3878d76e8f36\transformed\lifecycle-livedata-core-2.8.3\res
+kr.reformparty.koriyoscan.app-runtime-saveable-release-20 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\9b5c69187246602fa54645ee08aeb913\transformed\runtime-saveable-release\res
+kr.reformparty.koriyoscan.app-activity-ktx-1.9.3-21 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\a6d92913c41cda28df8589b3737f9e2b\transformed\activity-ktx-1.9.3\res
+kr.reformparty.koriyoscan.app-material-icons-core-release-22 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\a996da3a4380fe96008e444c3e5fe738\transformed\material-icons-core-release\res
+kr.reformparty.koriyoscan.app-foundation-release-23 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\ad094db55413f385a40122a09559abed\transformed\foundation-release\res
+kr.reformparty.koriyoscan.app-emoji2-1.3.0-24 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\res
+kr.reformparty.koriyoscan.app-lifecycle-runtime-release-25 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\b0ae66a6f4c90ff43d82f0a0a5a6077a\transformed\lifecycle-runtime-release\res
+kr.reformparty.koriyoscan.app-ui-release-26 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\b4426a36d89421707a13b5ebf63b2acd\transformed\ui-release\res
+kr.reformparty.koriyoscan.app-activity-1.9.3-27 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\b8afdb998ee65eff75ea384cbb3c9eac\transformed\activity-1.9.3\res
+kr.reformparty.koriyoscan.app-lifecycle-viewmodel-savedstate-2.8.3-28 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\baa5052afc48a88300bbefeb572ca9f0\transformed\lifecycle-viewmodel-savedstate-2.8.3\res
+kr.reformparty.koriyoscan.app-lifecycle-viewmodel-release-29 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\bd03045150a33d124dc332f0cbcd7d49\transformed\lifecycle-viewmodel-release\res
+kr.reformparty.koriyoscan.app-animation-release-30 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c007949f623006fa25a3d8726d71304d\transformed\animation-release\res
+kr.reformparty.koriyoscan.app-material-ripple-release-31 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c6bf2e6307b1085b37ade2ca94b6b169\transformed\material-ripple-release\res
+kr.reformparty.koriyoscan.app-core-1.15.0-32 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\res
+kr.reformparty.koriyoscan.app-savedstate-1.2.1-33 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\d95d1f743322e614d4325416cbb252b4\transformed\savedstate-1.2.1\res
+kr.reformparty.koriyoscan.app-core-ktx-1.15.0-34 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\e5b9e528ec7f116dda53fad77a252ccc\transformed\core-ktx-1.15.0\res
+kr.reformparty.koriyoscan.app-startup-runtime-1.1.1-35 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\ec4cf4222cf3dee7736b8ef20859af50\transformed\startup-runtime-1.1.1\res
+kr.reformparty.koriyoscan.app-lifecycle-viewmodel-ktx-2.8.3-36 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\f1d66d222e17e92fc85d0dc914f8cbf3\transformed\lifecycle-viewmodel-ktx-2.8.3\res
+kr.reformparty.koriyoscan.app-animation-core-release-37 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\f8295159c43e9a96dcbb9054edb0887e\transformed\animation-core-release\res
+kr.reformparty.koriyoscan.app-ui-text-release-38 C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\faa0ae5d5a38eaee8067a21929eecb96\transformed\ui-text-release\res
+kr.reformparty.koriyoscan.app-pngs-39 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\build\generated\res\pngs\debug
+kr.reformparty.koriyoscan.app-resValues-40 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\build\generated\res\resValues\debug
+kr.reformparty.koriyoscan.app-packageDebugResources-41 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+kr.reformparty.koriyoscan.app-packageDebugResources-42 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+kr.reformparty.koriyoscan.app-debug-43 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\build\intermediates\merged_res\debug\mergeDebugResources
+kr.reformparty.koriyoscan.app-debug-44 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\debug\res
+kr.reformparty.koriyoscan.app-main-45 C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\res

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.settings.AIRPLANE_MODE_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/kr/reformparty/koriyoscan/ui/GuardScreen.kt"
+                            line="797"
+                            column="58"
+                            startOffset="51908"
+                            endLine="797"
+                            endColumn="137"
+                            endOffset="51987"/>
+                    </map>
+                    <map id="android.settings.APPLICATION_DETAILS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/kr/reformparty/koriyoscan/MainActivity.kt"
+                            line="88"
+                            column="48"
+                            startOffset="4232"
+                            endLine="88"
+                            endColumn="157"
+                            endOffset="4341"/>
+                    </map>
+                    <map id="android.settings.NOTIFICATION_POLICY_ACCESS_DETAIL_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/kr/reformparty/koriyoscan/ui/GuardScreen.kt"
+                            line="814"
+                            column="31"
+                            startOffset="52596"
+                            endLine="814"
+                            endColumn="173"
+                            endOffset="52738"/>
+                    </map>
+                    <map id="android.settings.NOTIFICATION_POLICY_ACCESS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/kr/reformparty/koriyoscan/ui/GuardScreen.kt"
+                            line="816"
+                            column="31"
+                            startOffset="52788"
+                            endLine="816"
+                            endColumn="123"
+                            endOffset="52880"/>
+                    </map>
+                    <map id="android.settings.SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/kr/reformparty/koriyoscan/ui/ThrottleGuide.kt"
+                            line="122"
+                            column="35"
+                            startOffset="5379"
+                            endLine="122"
+                            endColumn="67"
+                            endOffset="5411"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="kr.reformparty.koriyoscan.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[ic_launcher_background(U)],drawable[ic_launcher_foreground(U)],mipmap[ic_launcher(U)],string[app_name(U)],style[AppTheme(U)],xml[data_extraction_rules(U)];2^0^1;;;"/>
+    </map>
+
+</incidents>

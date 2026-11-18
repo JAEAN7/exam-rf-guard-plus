@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.SnapshotStoreTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:14.550Z" hostname="DESKTOP-4LJB0EC" time="0.716">
+  <properties/>
+  <testcase name="savedSnapshotsSurviveNewStoreInstanceWithNullFieldsAndUnicode" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.116"/>
+  <testcase name="oldVersionRemainsReadable" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.089"/>
+  <testcase name="missingFileIsAnEmptyArchive" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.083"/>
+  <testcase name="fingerprintAndGroupMaximumsSurviveReopen" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.097"/>
+  <testcase name="presenceCompanyIdsAndHintsSurviveReopen" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.147"/>
+  <testcase name="unsupportedVersionIsNotSilentlyDiscarded" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.092"/>
+  <testcase name="fileWrittenByRelease210RemainsReadable" classname="kr.reformparty.koriyoscan.core.SnapshotStoreTest" time="0.091"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

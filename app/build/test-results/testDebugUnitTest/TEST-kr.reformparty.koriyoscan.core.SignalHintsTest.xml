@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.SignalHintsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:13.538Z" hostname="DESKTOP-4LJB0EC" time="0.785">
+  <properties/>
+  <testcase name="fastPairWindowsAndPriorityAreRead" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.144"/>
+  <testcase name="appleMessagesSeparateActiveDevicesEarbudsAndFindMyBeacons" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.107"/>
+  <testcase name="phoneHotspotAndWifiDirectNamesAreCandidatesOnly" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.102"/>
+  <testcase name="truncatedOrEmptyAdvertisementIsIgnored" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.109"/>
+  <testcase name="hintsFlowFromObservationToSavedSnapshotAndEquipmentType" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.132"/>
+  <testcase name="appearanceCategoryNamesTheDeviceKind" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.092"/>
+  <testcase name="classicClassOfDeviceIgnoresServiceBitsAndSeparatesCamerasFromEarphones" classname="kr.reformparty.koriyoscan.core.SignalHintsTest" time="0.097"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

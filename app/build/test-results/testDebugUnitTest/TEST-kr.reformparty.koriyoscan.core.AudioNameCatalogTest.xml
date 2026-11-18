@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.AudioNameCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:12.654Z" hostname="DESKTOP-4LJB0EC" time="0.081">
+  <properties/>
+  <testcase name="unicodeCompatibilityNamesAreNormalized" classname="kr.reformparty.koriyoscan.core.AudioNameCatalogTest" time="0.025"/>
+  <testcase name="genericOrEmbeddedWordsAreNotProductIdentification" classname="kr.reformparty.koriyoscan.core.AudioNameCatalogTest" time="0.002"/>
+  <testcase name="unknownIdDoesNotHideKnownCompany" classname="kr.reformparty.koriyoscan.core.AudioNameCatalogTest" time="0.047"/>
+  <testcase name="nameOnlyBrandIsMarkedAsCandidateAndNeverAppliedToWifiSsid" classname="kr.reformparty.koriyoscan.core.AudioNameCatalogTest" time="0.001"/>
+  <testcase name="recognizesVariantsAndKoreanNames" classname="kr.reformparty.koriyoscan.core.AudioNameCatalogTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

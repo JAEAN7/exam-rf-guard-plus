@@ -1,0 +1,21 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+.vscode/
+*.iml
+*.jks
+*.keystore
+.env
+.env.*
+distribution/
+release/
+captures/
+*.log
+# 빌드 산출물: 저장소가 아니라 GitHub Releases에 올린다.
+*.apk
+*.aab
+# OS 부산물
+.DS_Store
+Thumbs.db

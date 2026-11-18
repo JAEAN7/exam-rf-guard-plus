@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:13.213Z" hostname="DESKTOP-4LJB0EC" time="0.084">
+  <properties/>
+  <testcase name="confirmedDetectionSticksThroughBriefDip" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.028"/>
+  <testcase name="rotatingThePhoneDoesNotTrigger" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.012"/>
+  <testcase name="shakingWhileMovingDoesNotTrigger" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.003"/>
+  <testcase name="slowSubThresholdShiftIsCaughtByAccumulation" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.003"/>
+  <testcase name="singleSpikeIsTransientAndDoesNotMoveTheBaseline" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.001"/>
+  <testcase name="strongMagnetAlertsAfterMotionStops" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.002"/>
+  <testcase name="standardModeIgnoresWhatMaximumModeCatches" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.002"/>
+  <testcase name="quietDeviceKeepsProfileThreshold" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.002"/>
+  <testcase name="calibrationRecapturesTheNewBaseline" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.001"/>
+  <testcase name="quietRoomReachesClearWithCorrectBaseline" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.001"/>
+  <testcase name="alternatingWobbleDoesNotAccumulate" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.001"/>
+  <testcase name="noisyDeviceRaisesTheEffectiveThreshold" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.005"/>
+  <testcase name="sustainedSmallChangeIsDetected" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.001"/>
+  <testcase name="accumulationReleasesAfterTheObjectLeaves" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.002"/>
+  <testcase name="repeatedPassesAreCounted" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.002"/>
+  <testcase name="beepIntervalShortensWithStrength" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.004"/>
+  <testcase name="handWobbleDoesNotMoveTheBaseline" classname="kr.reformparty.koriyoscan.core.MagneticAnalyzerTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

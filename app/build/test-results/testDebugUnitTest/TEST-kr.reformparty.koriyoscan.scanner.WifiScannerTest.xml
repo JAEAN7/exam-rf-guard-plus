@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.scanner.WifiScannerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:16.530Z" hostname="DESKTOP-4LJB0EC" time="0.823">
+  <properties/>
+  <testcase name="queuedBroadcastForStoppedReceiverDoesNotRunInRestartedSession" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.203"/>
+  <testcase name="cachedFramesFromBeforeThisSessionAreNotAssignedToTheNewRoom" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.086"/>
+  <testcase name="hiddenSsidCanBeNullAndKeepsActualObservationTime" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.051"/>
+  <testcase name="failedCompletionDoesNotReprocessCachedResults" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.069"/>
+  <testcase name="cachePollKeepsFreshResultsAndDropsStaleOnesLongBeforeTheReviveWindow" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.096"/>
+  <testcase name="stopUnregistersReceiver" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.083"/>
+  <testcase name="successfulEmptyCompletionClearsErrorButIsNotInventedDeviceReception" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.075"/>
+  <testcase name="duplicateAndOlderNotificationsDoNotCountAsNewSignalSamples" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.09"/>
+  <testcase name="expiredAndFutureScanEntriesAreExcluded" classname="kr.reformparty.koriyoscan.scanner.WifiScannerTest" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@18d055f3], context=[android.app.ContextImpl@18d25432], intentFilter=[android.content.IntentFilter@7e84e142]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@3b5e14c9], context=[android.app.ContextImpl@18d25432], intentFilter=[android.content.IntentFilter@336d1c3]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@b55c7e7], context=[android.app.ContextImpl@1253bfb4], intentFilter=[android.content.IntentFilter@47b6e73b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@b55c7e7], context=[android.app.ContextImpl@1253bfb4], intentFilter=[android.content.IntentFilter@47b6e73b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@44279b24], context=[android.app.ContextImpl@6b63c22], intentFilter=[android.content.IntentFilter@7cc5beec]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@5df223d3], context=[android.app.ContextImpl@3d59b9d9], intentFilter=[android.content.IntentFilter@2e5fd9fe]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@5df223d3], context=[android.app.ContextImpl@3d59b9d9], intentFilter=[android.content.IntentFilter@2e5fd9fe]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@2f6fa960], context=[android.app.ContextImpl@6e4c55de], intentFilter=[android.content.IntentFilter@59e8dd]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@2d7b6867], context=[android.app.ContextImpl@12b8af99], intentFilter=[android.content.IntentFilter@5fed4ece]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: []
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@76815c81], context=[android.app.ContextImpl@7f0a88b0], intentFilter=[android.content.IntentFilter@34935a92]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@76815c81], context=[android.app.ContextImpl@7f0a88b0], intentFilter=[android.content.IntentFilter@34935a92]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@4a798f77], context=[android.app.ContextImpl@7a7db3f4], intentFilter=[android.content.IntentFilter@9199a3b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@4a798f77], context=[android.app.ContextImpl@7a7db3f4], intentFilter=[android.content.IntentFilter@9199a3b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@4a798f77], context=[android.app.ContextImpl@7a7db3f4], intentFilter=[android.content.IntentFilter@9199a3b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@4a798f77], context=[android.app.ContextImpl@7a7db3f4], intentFilter=[android.content.IntentFilter@9199a3b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@4a798f77], context=[android.app.ContextImpl@7a7db3f4], intentFilter=[android.content.IntentFilter@9199a3b]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@b495f6], context=[android.app.ContextImpl@301a4032], intentFilter=[android.content.IntentFilter@5a7ffe1a]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[kr.reformparty.koriyoscan.scanner.WifiScanner$start$listener$1@b495f6], context=[android.app.ContextImpl@301a4032], intentFilter=[android.content.IntentFilter@5a7ffe1a]]]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.ui.GuardFlowTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:17.449Z" hostname="DESKTOP-4LJB0EC" time="44.237">
+  <properties/>
+  <testcase name="guardFlowStaysReachableOnSmallScreenWithLargeText" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="31.179"/>
+  <testcase name="guideExplainsWhatTheAppCannotCatch" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="2.243"/>
+  <testcase name="proctorRecordsEmptyRoomThenSeesAndLocatesNewSignal" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="5.207"/>
+  <testcase name="signalsFromTheEmptyRoomCanBeOpenedForDetails" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="1.271"/>
+  <testcase name="confirmedSignalLeavesTheListAndLeavingTheAppKeepsWatching" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="1.534"/>
+  <testcase name="metalScreenRunsIndependentlyAndShowsLiveMeter" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="2.027"/>
+  <testcase name="backDuringMeasuringOrWatchingAsksBeforeStopping" classname="kr.reformparty.koriyoscan.ui.GuardFlowTest" time="0.776"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

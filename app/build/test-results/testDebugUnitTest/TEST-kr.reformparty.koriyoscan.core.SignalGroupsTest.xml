@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.SignalGroupsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:13.376Z" hostname="DESKTOP-4LJB0EC" time="0.077">
+  <properties/>
+  <testcase name="hiddenHotspotIsFlaggedEvenWhenTheEmptyRoomAlreadyHadAHiddenNetwork" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.03"/>
+  <testcase name="knownListKeepsTheEmptyRoomOrderAndOnlyItsStateChanges" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.026"/>
+  <testcase name="confirmingOneHiddenNetworkDoesNotHideTheNextOne" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.002"/>
+  <testcase name="sameDeviceWithAChangedAddressIsNotCountedAgain" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.002"/>
+  <testcase name="oneMoreDeviceOfTheSameKindIsFlaggedOnceItPersists" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.002"/>
+  <testcase name="recallOnlyGroupsAreNotCountedAsFoundOrInTheFindMyTally" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.003"/>
+  <testcase name="hiddenNetworkFromARouterAlreadyInTheEmptyRoomIsNotNew" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.001"/>
+  <testcase name="weakFindMyAndUnnamedSignalsGoToTheirOwnBuckets" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.003"/>
+  <testcase name="recallOnlyGroupKeepsTheLiveDeviceAsTheRepresentativeAndLeavesTheCountAlone" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.002"/>
+  <testcase name="kindAbsentFromTheEmptyRoomShowsAtOnceAndAlertsAfterItPersists" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.002"/>
+  <testcase name="wifiIsJudgedByNameAndNewNamesAlertImmediately" classname="kr.reformparty.koriyoscan.core.SignalGroupsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

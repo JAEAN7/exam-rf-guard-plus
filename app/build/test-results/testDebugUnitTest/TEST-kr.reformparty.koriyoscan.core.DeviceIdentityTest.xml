@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.reformparty.koriyoscan.core.DeviceIdentityTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:01:12.747Z" hostname="DESKTOP-4LJB0EC" time="0.367">
+  <properties/>
+  <testcase name="refreshedAssignmentsResolveThroughTheBundledRegistries" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.099"/>
+  <testcase name="macLookupWorksForUniversalUnicastOnly" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.001"/>
+  <testcase name="randomAddressCanStillExposeAdvertisingCompany" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.001"/>
+  <testcase name="companyIdsSurviveAdvertisementsWithoutManufacturerData" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.076"/>
+  <testcase name="bundledOfficialRegistriesAreWellFormed" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.187"/>
+  <testcase name="nameMatchComesFromSpecificBleNameNotMacOrWifiSsid" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.001"/>
+  <testcase name="unknownModelsAndIdsAreExplicit" classname="kr.reformparty.koriyoscan.core.DeviceIdentityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
