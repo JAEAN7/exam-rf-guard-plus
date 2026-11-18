@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.classroom.rfdetector.core.DistanceEstimateTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:16:01.279Z" hostname="DESKTOP-4LJB0EC" time="0.038">
-  <properties/>
-  <testcase name="distanceUsesRangeInsteadOfOneMisleadingNumber" classname="com.classroom.rfdetector.core.DistanceEstimateTest" time="0.035"/>
-  <testcase name="calibrationMovesTheEstimateCloser" classname="com.classroom.rfdetector.core.DistanceEstimateTest" time="0.0"/>
-  <testcase name="missingStrengthHasNoDistance" classname="com.classroom.rfdetector.core.DistanceEstimateTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
