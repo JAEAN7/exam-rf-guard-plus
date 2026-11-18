@@ -1,0 +1,65 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
+}
+
+android {
+    namespace = "com.classroom.rfdetector"
+    // Android 10(API 29) ~ Android 16(API 36)까지 같은 코드로 동작한다.
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.classroom.rfdetector"
+        minSdk = 29
+        targetSdk = 36
+        versionCode = 16
+        versionName = "1.1.1"
+    }
+
+    // 정식 서명: 키 파일과 비밀번호는 저장소에 두지 않고 환경 변수로 받는다.
+    // 환경 변수가 없으면 release 는 서명 없이 빌드된다. 절차는 docs/RELEASE.ko.md.
+    val releaseStoreFile = System.getenv("RELEASE_STORE_FILE")
+    if (releaseStoreFile != null) {
+        signingConfigs {
+            create("release") {
+                storeFile = file(releaseStoreFile)
+                storePassword = System.getenv("RELEASE_STORE_PASSWORD")
+                keyAlias = System.getenv("RELEASE_KEY_ALIAS")
+                keyPassword = System.getenv("RELEASE_STORE_PASSWORD")
+            }
+        }
+        buildTypes {
+            getByName("release") { signingConfig = signingConfigs.getByName("release") }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+    }
+}
+
+dependencies {
+    testImplementation(libs.junit)
+    testImplementation(libs.robolectric)
+    testImplementation(libs.androidx.compose.ui.test.junit4)
+    debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.activity.compose)
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.compose.material3)
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.classroom.rfdetector.core.SignalHintsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:16:02.067Z" hostname="DESKTOP-4LJB0EC" time="0.806">
+  <properties/>
+  <testcase name="fastPairWindowsAndPriorityAreRead" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.127"/>
+  <testcase name="appleMessagesSeparateActiveDevicesEarbudsAndFindMyBeacons" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.139"/>
+  <testcase name="phoneHotspotAndWifiDirectNamesAreCandidatesOnly" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.131"/>
+  <testcase name="truncatedOrEmptyAdvertisementIsIgnored" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.11"/>
+  <testcase name="hintsFlowFromObservationToSavedSnapshotAndEquipmentType" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.098"/>
+  <testcase name="appearanceCategoryNamesTheDeviceKind" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.104"/>
+  <testcase name="classicClassOfDeviceIgnoresServiceBitsAndSeparatesCamerasFromEarphones" classname="com.classroom.rfdetector.core.SignalHintsTest" time="0.096"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

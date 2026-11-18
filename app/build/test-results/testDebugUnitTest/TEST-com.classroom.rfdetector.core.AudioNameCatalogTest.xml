@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.classroom.rfdetector.core.AudioNameCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:16:00.554Z" hostname="DESKTOP-4LJB0EC" time="0.076">
+  <properties/>
+  <testcase name="unicodeCompatibilityNamesAreNormalized" classname="com.classroom.rfdetector.core.AudioNameCatalogTest" time="0.023"/>
+  <testcase name="genericOrEmbeddedWordsAreNotProductIdentification" classname="com.classroom.rfdetector.core.AudioNameCatalogTest" time="0.004"/>
+  <testcase name="unknownIdDoesNotHideKnownCompany" classname="com.classroom.rfdetector.core.AudioNameCatalogTest" time="0.037"/>
+  <testcase name="nameOnlyBrandIsMarkedAsCandidateAndNeverAppliedToWifiSsid" classname="com.classroom.rfdetector.core.AudioNameCatalogTest" time="0.001"/>
+  <testcase name="recognizesVariantsAndKoreanNames" classname="com.classroom.rfdetector.core.AudioNameCatalogTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

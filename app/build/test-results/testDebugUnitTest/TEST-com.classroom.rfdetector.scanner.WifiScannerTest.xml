@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.classroom.rfdetector.scanner.WifiScannerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:15:44.064Z" hostname="DESKTOP-4LJB0EC" time="14.317">
+  <properties/>
+  <testcase name="queuedBroadcastForStoppedReceiverDoesNotRunInRestartedSession" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="13.19"/>
+  <testcase name="cachedFramesFromBeforeThisSessionAreNotAssignedToTheNewRoom" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.133"/>
+  <testcase name="hiddenSsidCanBeNullAndKeepsActualObservationTime" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.158"/>
+  <testcase name="failedCompletionDoesNotReprocessCachedResults" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.145"/>
+  <testcase name="cachePollKeepsFreshResultsAndDropsStaleOnesLongBeforeTheReviveWindow" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.158"/>
+  <testcase name="stopUnregistersReceiver" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.118"/>
+  <testcase name="successfulEmptyCompletionClearsErrorButIsNotInventedDeviceReception" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.129"/>
+  <testcase name="duplicateAndOlderNotificationsDoNotCountAsNewSignalSamples" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.138"/>
+  <testcase name="expiredAndFutureScanEntriesAreExcluded" classname="com.classroom.rfdetector.scanner.WifiScannerTest" time="0.128"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@2ed8104a], context=[android.app.ContextImpl@4bdfb398], intentFilter=[android.content.IntentFilter@291a328a]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@11d3c05c], context=[android.app.ContextImpl@4bdfb398], intentFilter=[android.content.IntentFilter@688ebc7e]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@53bae270], context=[android.app.ContextImpl@4580239], intentFilter=[android.content.IntentFilter@7768d5b1]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@53bae270], context=[android.app.ContextImpl@4580239], intentFilter=[android.content.IntentFilter@7768d5b1]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@44745e19], context=[android.app.ContextImpl@47942f66], intentFilter=[android.content.IntentFilter@31ad598d]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@3c74bc89], context=[android.app.ContextImpl@2b703828], intentFilter=[android.content.IntentFilter@6270df48]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@3c74bc89], context=[android.app.ContextImpl@2b703828], intentFilter=[android.content.IntentFilter@6270df48]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@20b95ae5], context=[android.app.ContextImpl@3a85260e], intentFilter=[android.content.IntentFilter@7845f41]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@b44097c], context=[android.app.ContextImpl@6d4fa861], intentFilter=[android.content.IntentFilter@63889dce]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: []
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@20ad57b8], context=[android.app.ContextImpl@80b2f98], intentFilter=[android.content.IntentFilter@2fb375b5]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@20ad57b8], context=[android.app.ContextImpl@80b2f98], intentFilter=[android.content.IntentFilter@2fb375b5]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@fa3e2fe], context=[android.app.ContextImpl@27538d7d], intentFilter=[android.content.IntentFilter@72ce1008]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@fa3e2fe], context=[android.app.ContextImpl@27538d7d], intentFilter=[android.content.IntentFilter@72ce1008]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@fa3e2fe], context=[android.app.ContextImpl@27538d7d], intentFilter=[android.content.IntentFilter@72ce1008]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@fa3e2fe], context=[android.app.ContextImpl@27538d7d], intentFilter=[android.content.IntentFilter@72ce1008]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@fa3e2fe], context=[android.app.ContextImpl@27538d7d], intentFilter=[android.content.IntentFilter@72ce1008]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS (has extras) }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@4a607988], context=[android.app.ContextImpl@359fc5a0], intentFilter=[android.content.IntentFilter@54c8100f]]]
+Intent = Intent { act=android.net.wifi.SCAN_RESULTS }; Matching wrappers: [Wrapper[receiver=[com.classroom.rfdetector.scanner.WifiScanner$start$listener$1@4a607988], context=[android.app.ContextImpl@359fc5a0], intentFilter=[android.content.IntentFilter@54c8100f]]]
+]]></system-err>
+</testsuite>

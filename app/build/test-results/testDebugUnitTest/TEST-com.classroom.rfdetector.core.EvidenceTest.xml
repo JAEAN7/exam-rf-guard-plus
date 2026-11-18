@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.classroom.rfdetector.core.EvidenceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:16:01.335Z" hostname="DESKTOP-4LJB0EC" time="0.013">
+  <properties/>
+  <testcase name="continuousStrongSignalBecomesConfirmed" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.004"/>
+  <testcase name="extendedPresenceKeepsSparseBleVisibleLonger" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.002"/>
+  <testcase name="switchToMaximumRescoresSamplesAlreadyCollected" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.002"/>
+  <testcase name="duplicateCallbackDoesNotDoubleCountEvidence" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.001"/>
+  <testcase name="recallSurvivesAfterTheSampleWindowExpires" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.002"/>
+  <testcase name="standardModeStillExpiresBleAfterFifteenSeconds" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.001"/>
+  <testcase name="sparsePacketsOverMinutesStillReachLikely" classname="com.classroom.rfdetector.core.EvidenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.classroom.rfdetector.core.SignalGroupsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:16:01.655Z" hostname="DESKTOP-4LJB0EC" time="0.169">
+  <properties/>
+  <testcase name="hiddenHotspotIsFlaggedEvenWhenTheEmptyRoomAlreadyHadAHiddenNetwork" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.075"/>
+  <testcase name="knownListKeepsTheEmptyRoomOrderAndOnlyItsStateChanges" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.036"/>
+  <testcase name="confirmingOneHiddenNetworkDoesNotHideTheNextOne" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.005"/>
+  <testcase name="sameDeviceWithAChangedAddressIsNotCountedAgain" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.01"/>
+  <testcase name="oneMoreDeviceOfTheSameKindIsFlaggedOnceItPersists" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.007"/>
+  <testcase name="recallOnlyGroupsAreNotCountedAsFoundOrInTheFindMyTally" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.004"/>
+  <testcase name="hiddenNetworkFromARouterAlreadyInTheEmptyRoomIsNotNew" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.006"/>
+  <testcase name="weakFindMyAndUnnamedSignalsGoToTheirOwnBuckets" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.004"/>
+  <testcase name="recallOnlyGroupKeepsTheLiveDeviceAsTheRepresentativeAndLeavesTheCountAlone" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.006"/>
+  <testcase name="kindAbsentFromTheEmptyRoomShowsAtOnceAndAlertsAfterItPersists" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.006"/>
+  <testcase name="wifiIsJudgedByNameAndNewNamesAlertImmediately" classname="com.classroom.rfdetector.core.SignalGroupsTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.settings.AIRPLANE_MODE_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/classroom/rfdetector/ui/GuardScreen.kt"
+                            line="777"
+                            column="58"
+                            startOffset="50530"
+                            endLine="777"
+                            endColumn="137"
+                            endOffset="50609"/>
+                    </map>
+                    <map id="android.settings.APPLICATION_DETAILS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/classroom/rfdetector/MainActivity.kt"
+                            line="87"
+                            column="48"
+                            startOffset="4183"
+                            endLine="87"
+                            endColumn="157"
+                            endOffset="4292"/>
+                    </map>
+                    <map id="android.settings.NOTIFICATION_POLICY_ACCESS_DETAIL_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/classroom/rfdetector/ui/GuardScreen.kt"
+                            line="794"
+                            column="31"
+                            startOffset="51218"
+                            endLine="794"
+                            endColumn="173"
+                            endOffset="51360"/>
+                    </map>
+                    <map id="android.settings.NOTIFICATION_POLICY_ACCESS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/classroom/rfdetector/ui/GuardScreen.kt"
+                            line="796"
+                            column="31"
+                            startOffset="51410"
+                            endLine="796"
+                            endColumn="123"
+                            endOffset="51502"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.classroom.rfdetector.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[ic_launcher_background(U)],drawable[ic_launcher_foreground(U)],mipmap[ic_launcher(U)],string[app_name(U)],style[AppTheme(U)],xml[data_extraction_rules(U)];2^0^1;;;"/>
+    </map>
+
+</incidents>

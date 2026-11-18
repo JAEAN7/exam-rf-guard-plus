@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.classroom.rfdetector"
+4    android:versionCode="16"
+5    android:versionName="1.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="36" />
+10    <!-- BLE / 클래식 블루투스 (API 30-: 구형 권한) -->
+11    <uses-permission
+11-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:4:5-95
+12        android:name="android.permission.BLUETOOTH"
+12-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:4:22-65
+13        android:maxSdkVersion="30" />
+13-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:4:66-92
+14    <uses-permission
+14-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:5:5-101
+15        android:name="android.permission.BLUETOOTH_ADMIN"
+15-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:5:22-71
+16        android:maxSdkVersion="30" />
+16-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:5:72-98
+17    <!-- BLE 신호를 위치 추정에 사용하므로 neverForLocation을 선언하지 않는다. -->
+18    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+18-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:7:5-73
+18-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:7:22-70
+19    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+19-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:8:5-76
+19-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:8:22-73
+20    <!-- WifiManager 스캔 결과는 Android 13+에서도 정확한 위치 권한이 필요하다. -->
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:10:5-79
+21-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:10:22-76
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:11:5-81
+22-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:11:22-78
+23    <!-- API 33+ 주변 Wi-Fi 기기 권한. AP 스캔에는 정확한 위치 권한도 계속 필요하다. -->
+24    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+24-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:13:5-78
+24-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:13:22-75
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:14:5-76
+25-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:14:22-73
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+26-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:15:5-76
+26-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:15:22-73
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:16:5-66
+27-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:16:22-63
+28    <!-- 측정·감시 중 전화·알림·알람이 울리지 않게 방해 금지를 켠다. -->
+29    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+29-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:18:5-85
+29-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:18:22-82
+30    <!--
+31         자기장 감지용. 자기장 센서 자체는 권한이 필요 없고, 이 선언은 Android 12+에서 200Hz 넘는
+32         고속 표본을 요청할 때만 필요하다(런타임 권한 아님).
+33    -->
+34    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+34-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:21:5-117
+34-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:21:22-82
+35
+36    <uses-feature
+36-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:23:5-91
+37        android:name="android.hardware.bluetooth_le"
+37-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:23:19-63
+38        android:required="false" />
+38-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:23:64-88
+39    <uses-feature
+39-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:24:5-87
+40        android:name="android.hardware.location"
+40-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:24:19-59
+41        android:required="false" />
+41-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:24:60-84
+42    <!-- 자기장 센서(나침반)가 없는 기기도 설치할 수 있게 한다. 없으면 감지 패널이 안내만 보여 준다. -->
+43    <uses-feature
+43-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:26:5-93
+44        android:name="android.hardware.sensor.compass"
+44-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:26:19-65
+45        android:required="false" />
+45-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:26:66-90
+46
+47    <permission
+47-->[androidx.core:core:1.15.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+48        android:name="com.classroom.rfdetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.15.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.15.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.classroom.rfdetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.15.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.15.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+52
+53    <application
+53-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:28:5-46:19
+54        android:allowBackup="false"
+54-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:29:9-36
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.15.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\c932c53a9d9da84d2056f9d3c697e646\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+56        android:dataExtractionRules="@xml/data_extraction_rules"
+56-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:30:9-65
+57        android:debuggable="true"
+58        android:enableOnBackInvokedCallback="true"
+58-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:31:9-51
+59        android:extractNativeLibs="false"
+60        android:fullBackupContent="false"
+60-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:32:9-42
+61        android:icon="@mipmap/ic_launcher"
+61-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:33:9-43
+62        android:label="@string/app_name"
+62-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:34:9-41
+63        android:supportsRtl="true"
+63-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:35:9-35
+64        android:theme="@style/AppTheme" >
+64-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:36:9-40
+65        <activity
+65-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:38:9-45:20
+66            android:name="com.classroom.rfdetector.MainActivity"
+66-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:39:13-41
+67            android:exported="true" >
+67-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:40:13-36
+68            <intent-filter>
+68-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:41:13-44:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:42:17-69
+69-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:42:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:43:17-77
+71-->C:\Users\BitGaram\Downloads\전파감지 수능\exam-rf-guard-main\app\src\main\AndroidManifest.xml:43:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\111c6f1a8be5833d68685e69937c2a47\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:23:9-25:39
+75            android:name="androidx.activity.ComponentActivity"
+75-->[androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\111c6f1a8be5833d68685e69937c2a47\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:24:13-63
+76            android:exported="true" />
+76-->[androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\111c6f1a8be5833d68685e69937c2a47\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:25:13-36
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+80            android:authorities="com.classroom.rfdetector.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\af0fca5c284fc8cf7ffbbf66991f34bc\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\045eeb2b550ed2f8cd271a9d4d1f20f5\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\045eeb2b550ed2f8cd271a9d4d1f20f5\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\045eeb2b550ed2f8cd271a9d4d1f20f5\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BitGaram\.gradle\caches\9.7.1\transforms\3fd3b57d9c443c08717b7a6a0067fcee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>

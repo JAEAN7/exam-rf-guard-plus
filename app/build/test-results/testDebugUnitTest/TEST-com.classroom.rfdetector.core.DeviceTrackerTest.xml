@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.classroom.rfdetector.core.DeviceTrackerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:16:01.240Z" hostname="DESKTOP-4LJB0EC" time="0.021">
+  <properties/>
+  <testcase name="staleDevicesExpireFromTheActiveList" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.001"/>
+  <testcase name="strongestSignalFirstWithUnknownLast" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.001"/>
+  <testcase name="repeatPacketsUpdateStrengthWithoutCreatingAnotherDevice" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.002"/>
+  <testcase name="latePacketsAreCountedButDoNotOverwriteLatestState" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.001"/>
+  <testcase name="singleBriefSignalSurvivesExpiryInSessionHistory" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.002"/>
+  <testcase name="identicalAddressAcrossRadiosDoesNotMergeEvidence" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.001"/>
+  <testcase name="wifiUsesSlowerFreshnessWindowThanBle" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.006"/>
+  <testcase name="newSessionClearsHistory" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.001"/>
+  <testcase name="addressCasingDoesNotCreateAnotherRecord" classname="com.classroom.rfdetector.core.DeviceTrackerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
