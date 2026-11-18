@@ -1,0 +1,10 @@
+<resources>
+    <!-- 밝은 화면: 앱이 그리기 전 창 배경과 시스템 막대도 같은 톤으로 맞춘다. -->
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F5F5F6</item>
+        <item name="android:statusBarColor">#F5F5F6</item>
+        <item name="android:navigationBarColor">#F5F5F6</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
